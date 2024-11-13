@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    width: 100%;
+    height: 1000px;
+    background-color: #e6e4e4;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*header*/
+
+header {
+    display: flex;
+    width: 94%;
+    height: 110px;
+    color: white;
+    background-color: #21272b;
+    align-items: center;
+    padding-bottom: 20px;
+    padding-top: 15px;
+    justify-content: space-between;
+}
+
+.MENU ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    padding-top: 35px;
+    padding-right: 45px;
+    gap: 25px;
+}
+
+.MENU li {
+    padding-right: 20px;
+    cursor: pointer;
+    border-right: 3px solid #ffffff;
+}
+
+.MENU li:last-child {
+    border-right: none;
+}
+
+.MENU li:hover {
+    color: #1BB4E8;
+}
+
+.Título {
+    display: flex;
+    padding-left: 40px;
+    font-style: italic;
+}
+
+.Título h1 {
+    color: #1BB4E8;
+    font-size: 19px;
+}
+
+.Título h2 {
+    font-size: 18px;
+}
+
+.TítuloemTexto {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.TítuloemTexto h2 {
+    font-size: 25px;
+    font-weight: inherit;
+}
+
+.TítuloemTexto h1 {
+    font-weight: inherit;
+}
+
+/*main*/
+
+main {
+    width: 94%;
+    background-color: #ffffff;
+    padding-bottom: 50px;
+}
+
+.ImagemTexto {
+    width: 100%;
+    height: 650px;
+    background-image: url(barcoprincipal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Caixa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 380px;
+    height: 250px;
+    padding: 0px 30px 0px 30px;
+    gap: 50px;
+    background-color: #21272bec;
+    color: white;
+    font-style: italic;
+    position: relative;
+    left: 700px;
+    top: 300px;
+    border-radius: 3px;
+}
+
+.Título_Caixa {
+    display: flex;
+    gap: 13px;
+}
+
+.Título_Caixa h2 {
+    font-size: 25px;
+    font-weight: inherit;
+}
+
+.Texto_Caixa {
+    display: flex;
+    gap: 13px;
+}
+
+.Texto_Caixa p {
+    font-size: 21px;
+    font-weight: inherit;
+}
+
+.Texto_Caixa span {
+    color:  rgb(196, 167, 135);
+}
+
+.DestinoFrota {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.BlocoDestino {
+    width: 46%;
+    height: 520px;
+    padding: 10px;
+}
+
+.TítuloDestino {
+    display: flex;
+    font-style: italic;
+    color: white;
+    background-color: #1BB4E8;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.TítuloDestino h2 {
+    font-weight: inherit;
+ }
+
+.BlocoFrota {
+    width: 46%;
+    height: 520px;
+    padding: 10px;
+}
+
+.TítuloFrota {
+    display: flex;
+    font-style: italic;
+    color: white;
+    background-color: rgb(196, 167, 135);
+    align-items: center;
+    margin-bottom: 15px;
+    height: 40px;
+}
+
+.TítuloFrota h2 {
+    font-weight: inherit;
+}
+
+.BlocoDestino h3 {
+    padding-bottom: 20px;
+    font-style: italic;
+    font-weight: inherit;
+}
+
+.BlocoDestino p {
+    font-size: 15px;
+    padding-bottom: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.BlocoFrota h3 {
+    padding-bottom: 20px;
+    font-style: italic;
+    font-weight: inherit
+}
+
+.BlocoFrota p {
+    font-size: 15px;
+    padding-bottom: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.ImagensFrota {
+    height: 305px;
+}
+
+.ImagensFrota img {
+    width: 260px;
+    height: 148px;
+    padding: 5px;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    height: 160px;
+    background-color: rgb(139, 135, 135);
+    align-items: center;
+    justify-content: center;
+}
+
+.Rodapé {
+    width: 94%;
+    height: 80px;
+    text-align: start;
+    background-color: rgb(230, 228, 228);
+}
+
+.Rodapé p {
+    padding-top: 32px;
+    padding-left: 40px;
+}
